@@ -13,6 +13,7 @@
 		01BDAFBF1E7B2A5A00446DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDAFBE1E7B2A5A00446DB5 /* Assets.xcassets */; };
 		01BDAFC21E7B2A5A00446DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BDAFC01E7B2A5A00446DB5 /* LaunchScreen.storyboard */; };
 		01BDAFD01E7B2E0300446DB5 /* NLREarthPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDAFCF1E7B2E0300446DB5 /* NLREarthPhoto.m */; };
+		01BDAFD31E7B323A00446DB5 /* EarthPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDAFD21E7B323A00446DB5 /* EarthPhotoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		01BDAFC31E7B2A5A00446DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01BDAFCE1E7B2E0300446DB5 /* NLREarthPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLREarthPhoto.h; sourceTree = "<group>"; };
 		01BDAFCF1E7B2E0300446DB5 /* NLREarthPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLREarthPhoto.m; sourceTree = "<group>"; };
+		01BDAFD11E7B323A00446DB5 /* EarthPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthPhotoController.h; sourceTree = "<group>"; };
+		01BDAFD21E7B323A00446DB5 /* EarthPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthPhotoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 		01BDAFCB1E7B2DAC00446DB5 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				01BDAFD11E7B323A00446DB5 /* EarthPhotoController.h */,
+				01BDAFD21E7B323A00446DB5 /* EarthPhotoController.m */,
 			);
 			name = ModelControllers;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				01BDAFB71E7B2A5A00446DB5 /* AppDelegate.m in Sources */,
 				01BDAFB41E7B2A5A00446DB5 /* main.m in Sources */,
 				01BDAFD01E7B2E0300446DB5 /* NLREarthPhoto.m in Sources */,
+				01BDAFD31E7B323A00446DB5 /* EarthPhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
