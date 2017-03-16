@@ -17,4 +17,6 @@
 // We need a seperate function to grab the image
 + (void)fetchEarthPhotoWithURLString:(NSString *)urlString completion: (void (^)(UIImage *image))completion;
 
++ (NSString *)fetchAPIKeyFromPlist;
+
 @end
