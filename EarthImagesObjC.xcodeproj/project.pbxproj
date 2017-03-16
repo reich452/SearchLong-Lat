@@ -15,6 +15,8 @@
 		01BDAFD01E7B2E0300446DB5 /* NLREarthPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDAFCF1E7B2E0300446DB5 /* NLREarthPhoto.m */; };
 		01BDAFD31E7B323A00446DB5 /* EarthPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDAFD21E7B323A00446DB5 /* EarthPhotoController.m */; };
 		01BDAFD51E7B390000446DB5 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01BDAFD41E7B390000446DB5 /* APIKeys.plist */; };
+		01BDAFD81E7B472B00446DB5 /* NLREarthPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BDAFD71E7B472B00446DB5 /* NLREarthPhotoViewController.m */; };
+		01BDAFDA1E7B505B00446DB5 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BDAFD91E7B505B00446DB5 /* background1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		01BDAFD11E7B323A00446DB5 /* EarthPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthPhotoController.h; sourceTree = "<group>"; };
 		01BDAFD21E7B323A00446DB5 /* EarthPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthPhotoController.m; sourceTree = "<group>"; };
 		01BDAFD41E7B390000446DB5 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		01BDAFD61E7B472B00446DB5 /* NLREarthPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLREarthPhotoViewController.h; sourceTree = "<group>"; };
+		01BDAFD71E7B472B00446DB5 /* NLREarthPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLREarthPhotoViewController.m; sourceTree = "<group>"; };
+		01BDAFD91E7B505B00446DB5 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +76,7 @@
 				01BDAFC91E7B2D9800446DB5 /* View */,
 				01BDAFCD1E7B2DBF00446DB5 /* Storyboard */,
 				01BDAFBE1E7B2A5A00446DB5 /* Assets.xcassets */,
+				01BDAFD91E7B505B00446DB5 /* background1.png */,
 				01BDAFC31E7B2A5A00446DB5 /* Info.plist */,
 				01BDAFD41E7B390000446DB5 /* APIKeys.plist */,
 				01BDAFB21E7B2A5A00446DB5 /* Supporting Files */,
@@ -89,6 +95,8 @@
 		01BDAFC91E7B2D9800446DB5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01BDAFD61E7B472B00446DB5 /* NLREarthPhotoViewController.h */,
+				01BDAFD71E7B472B00446DB5 /* NLREarthPhotoViewController.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -189,6 +197,7 @@
 				01BDAFC21E7B2A5A00446DB5 /* LaunchScreen.storyboard in Resources */,
 				01BDAFD51E7B390000446DB5 /* APIKeys.plist in Resources */,
 				01BDAFBF1E7B2A5A00446DB5 /* Assets.xcassets in Resources */,
+				01BDAFDA1E7B505B00446DB5 /* background1.png in Resources */,
 				01BDAFBD1E7B2A5A00446DB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BDAFD81E7B472B00446DB5 /* NLREarthPhotoViewController.m in Sources */,
 				01BDAFB71E7B2A5A00446DB5 /* AppDelegate.m in Sources */,
 				01BDAFB41E7B2A5A00446DB5 /* main.m in Sources */,
 				01BDAFD01E7B2E0300446DB5 /* NLREarthPhoto.m in Sources */,
