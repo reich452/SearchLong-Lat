@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+@class NLREarthPhoto;
 
 @interface EarthPhotoController : NSObject
+
++ (void)fetchEarthPhotoInformationForLatitude:(NSString *)latitude longitude:(NSString *)longitude completion: (void (^)(NLREarthPhoto *earthPhoto))completion;
+
+// We need a seperate function to grab the image
++ (void)fetchEarthPhotoWithURLString:(NSString *)urlString completion: (void (^)(UIImage *image))completion;
 
 @end
